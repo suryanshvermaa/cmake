@@ -1,5 +1,6 @@
 #include<iostream>
+using namespace std;
 int main(){
-    std::cout<<"Hello CMake";
+    cout<<"Hello CMake"<<endl;
     return 0;
 }

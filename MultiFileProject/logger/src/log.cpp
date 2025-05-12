@@ -1,6 +1,7 @@
 #include"log.h"
 #include<iostream>
 void log_data(const char* message,LogType lt){
+    // auto value=((10<=>20)>0);
     switch(lt){
         case LogType::MESSAGE:
             std::cout<<"Message : "<<message<<std::endl;
